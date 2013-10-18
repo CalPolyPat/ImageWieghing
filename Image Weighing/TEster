@@ -1,0 +1,8 @@
+from PIL import Image
+
+im = Image.open("carpet.jpg")
+x = 3
+y = 4
+
+pix = im.load()
+print pix[x,y]
